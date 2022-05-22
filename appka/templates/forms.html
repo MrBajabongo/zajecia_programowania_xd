@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <form style="text-align:center" action="" method="post">
+        
+        {{ form.csrf_token() }}
+        <h1 style="font-family: Arial, Helvetica, sans-serif;"> Wybór ulubionej ligi z top 5 </h1>
+        <p> <b>{{ form.best_like_league.label }} </b></p>
+        <p> {{ form.best_like_league }} </p>
+        <br>
+        <p> {{ form.like_football_team.label }}</p>
+        <p> {{ form.like_football_team }}</p>
+        <br>
+        <p> {{ form.like_other_league.label }}</p>
+        <p> {{ form.like_other_league }}</p>
+        <br>
+        <p> {{ form.place_in_league.label }}</p>
+        <p> {{ form.place_in_league }}</p>
+         
+        <p> {{ form.button }} </p>
+    </form>
+
+</div>
+{% endblock %}

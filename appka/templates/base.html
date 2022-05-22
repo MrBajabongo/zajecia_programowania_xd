@@ -1,0 +1,21 @@
+<div class="navbar">
+    <nav> 
+        <a href="{{ url_for('index') }}" class="navbar-item">  Strona główna </a>
+        <br>
+        <a href="{{ url_for('strona') }}" class="navbar-item"> /strona</a>
+        <br>
+        <a href="{{ url_for('podstrona') }}"> /podstrona </a>
+        <br>
+        <a href="{{ url_for('jinja_fory') }}"> Jinja - fory  </a>
+        <br>
+        <a href="{{ url_for('jinja_ify') }}"> Jinja - ify  </a>
+        <br>
+        <a href="{{ url_for('forms') }}"> Formularze testy  </a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=lZaLZO61-gY"> linkyoutube  </a>
+    </nav>
+</div>
+<div>
+    {% block content %} {% endblock %}
+</div>
+

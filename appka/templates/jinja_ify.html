@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <br>
+    <br>
+    {% if nr == 1 %} 
+        <p>A. {{ nr }} </p>
+    {% elif nr ==2  %}    
+        <p>B. {{ nr }} </p>
+    {% else %}
+        <p>C. {{ nr }} </p>
+    {% endif %}
+
+{% endblock %}
+

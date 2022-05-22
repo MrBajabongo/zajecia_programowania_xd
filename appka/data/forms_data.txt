@@ -1,0 +1,13 @@
+Premie_League
+FC Barcelona
+False
+
+La_Liga,FC Barcelona,True,1
+Premie_League,Liverpool,True,2
+Bundesliga,Bayer,False,inne
+Premie_League,FC Barcelona,True,3
+Premie_League,Liverpool,True,1
+-------------La_Liga,Liverpool,False,inne
+Premie_League,Liverpool,False,3
+Premie_League,FC Barcelona,False,inne
+La_Liga,FC Barcelona,True,1
